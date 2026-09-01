@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RideBridge Driver</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="driver-page">
+  <main class="driver-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">RIDE BRIDGE LITE</div>
+        <h1>기사 화면</h1>
+      </div>
+      <div class="header-actions">
+        <span id="hardwareStatus" class="hardware-status idle">🟢 SYSTEM READY</span>
+        <span id="driverNetBadge" class="badge ok">ONLINE</span>
+        <button id="themeBtn" class="icon-btn">◐</button>
+      </div>
+    </header>
+
+    <section class="dashboard-grid">
+      <div class="card hero-card">
+        <div class="section-title-row">
+          <h2>승객 요청</h2>
+          <span id="passengerLangBadge" class="mini-badge">EN</span>
+        </div>
+
+        <div id="latestPassenger" class="hero-message">승객 요청을 기다리는 중입니다.</div>
+        <div id="correctionInfo" class="hint"></div>
+
+        <div class="actions">
+          <button id="replayBtn" class="secondary">↻ 다시 듣기</button>
+          <button id="confirmBtn" class="primary">✓ 확인</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>운행 상황</h2>
+        <div id="rideStates" class="segmented wrap">
+          <button data-state="START" class="active">출발</button>
+          <button data-state="DRIVING">주행</button>
+          <button data-state="ARRIVING">도착 임박</button>
+          <button data-state="STOPPED">정차</button>
+        </div>
+
+        <h3>Smart Context Quick-Bar</h3>
+        <div id="contextQuick" class="grid-buttons"></div>
+        <p class="hint">현재는 수동 상태 선택. 추후 GPS를 연결하면 이 상태값만 자동화하면 됩니다.</p>
+      </div>
+
+      <div class="card">
+        <h2>기사 답변</h2>
+        <textarea id="driverInput" rows="3" maxlength="500" placeholder="한국어로 입력하거나 빠른 문장을 사용하세요."></textarea>
+
+        <div class="actions">
+          <button id="driverSttBtn" class="secondary">🎤 PTT/STT</button>
+          <button id="driverSendBtn" class="primary">승객에게 전송</button>
+        </div>
+        <p id="driverSttHint" class="hint">음성 입력 상태를 확인하는 중입니다.</p>
+
+        <div class="volume-row">
+          <label for="ttsVolume">TTS 음량</label>
+          <input id="ttsVolume" type="range" min="0" max="1" value="0.9" step="0.05">
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>대화 로그</h2>
+        <div id="driverConversation" class="conversation tall"></div>
+      </div>
+    </section>
+
+    <section class="card danger-card">
+      <div class="section-title-row">
+        <div>
+          <h2>SOS / 인적 통역 지원</h2>
+          <p>자동 번역으로 해결하기 어려운 관광 문의는 한국관광공사 1330으로 연결합니다.</p>
+        </div>
+        <a id="sosInfoBtn" class="sos-button buttonlike" href="tel:{{ sos_number }}">1330 전화</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/driver.js"></script>
+</body>
+</html>

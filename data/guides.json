@@ -1,0 +1,77 @@
+[
+  {
+    "id": "gyeongbokgung",
+    "name": {
+      "ko": "경복궁",
+      "en": "Gyeongbokgung Palace",
+      "ja": "景福宮",
+      "zh": "景福宫"
+    },
+    "body": {
+      "ko": "조선 왕조의 대표 궁궐입니다. 주변의 광화문·서촌·북촌 지역과 함께 둘러보기 좋습니다.",
+      "en": "A major royal palace of the Joseon dynasty. It is convenient to explore together with nearby Gwanghwamun, Seochon and Bukchon.",
+      "ja": "朝鮮王朝を代表する宮殿です。周辺の光化門・西村・北村エリアと一緒に巡るのに便利です。",
+      "zh": "这是朝鲜王朝具有代表性的宫殿。可与附近的光化门、西村和北村一同游览。"
+    }
+  },
+  {
+    "id": "jagalchi",
+    "name": {
+      "ko": "자갈치시장",
+      "en": "Jagalchi Market",
+      "ja": "チャガルチ市場",
+      "zh": "札嘎其市场"
+    },
+    "body": {
+      "ko": "부산을 대표하는 수산시장입니다. 주문 전 가격과 조리 방식을 확인하면 편리합니다.",
+      "en": "A well-known seafood market in Busan. Checking the price and cooking method before ordering can make the visit easier.",
+      "ja": "釜山を代表する水産市場です。注文前に価格や調理方法を確認すると安心です。",
+      "zh": "这是釜山具有代表性的水产市场。点餐前确认价格和烹饪方式会更方便。"
+    }
+  },
+  {
+    "id": "jeonju_hanok",
+    "name": {
+      "ko": "전주한옥마을",
+      "en": "Jeonju Hanok Village",
+      "ja": "全州韓屋村",
+      "zh": "全州韩屋村"
+    },
+    "body": {
+      "ko": "전통 한옥이 밀집한 관광 지역입니다. 도보 이동이 많아 편한 신발을 준비하면 좋습니다.",
+      "en": "A tourism area filled with traditional hanok houses. Comfortable shoes are useful because the area is explored mostly on foot.",
+      "ja": "伝統韓屋が集まる観光エリアです。徒歩移動が多いため歩きやすい靴がおすすめです。",
+      "zh": "这里聚集了大量传统韩屋。主要步行游览，建议穿舒适的鞋。"
+    }
+  },
+  {
+    "id": "dongpirang",
+    "name": {
+      "ko": "동피랑 벽화마을",
+      "en": "Dongpirang Mural Village",
+      "ja": "トンピラン壁画村",
+      "zh": "东崖壁画村"
+    },
+    "body": {
+      "ko": "통영의 언덕과 골목을 따라 벽화를 감상할 수 있는 지역입니다. 경사가 있는 길이 많습니다.",
+      "en": "A hillside neighborhood in Tongyeong known for murals along its alleys. Many paths are sloped.",
+      "ja": "統営の丘や路地に沿って壁画を楽しめるエリアです。坂道が多くあります。",
+      "zh": "位于统营山坡上的壁画街区，可沿小巷欣赏壁画。坡路较多。"
+    }
+  },
+  {
+    "id": "seongsimdang",
+    "name": {
+      "ko": "성심당",
+      "en": "Seongsimdang",
+      "ja": "ソンシムダン",
+      "zh": "圣心堂"
+    },
+    "body": {
+      "ko": "대전을 대표하는 제과점으로 알려져 있습니다. 인기 시간대에는 혼잡할 수 있습니다.",
+      "en": "A bakery widely associated with Daejeon. It can be crowded during popular hours.",
+      "ja": "大田を代表するベーカリーとして知られています。人気の時間帯は混雑することがあります。",
+      "zh": "这是广为人知的大田代表性面包店。热门时段可能较拥挤。"
+    }
+  }
+]

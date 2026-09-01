@@ -1,0 +1,158 @@
+{
+  "passenger": [
+    {
+      "id": "drop_off_here",
+      "translations": {
+        "ko": "여기서 내려주세요.",
+        "en": "Please drop me off here.",
+        "ja": "ここで降ろしてください。",
+        "zh": "请让我在这里下车。"
+      }
+    },
+    {
+      "id": "wait",
+      "translations": {
+        "ko": "잠시 기다려주세요.",
+        "en": "Please wait a moment.",
+        "ja": "少し待ってください。",
+        "zh": "请稍等一下。"
+      }
+    },
+    {
+      "id": "card",
+      "translations": {
+        "ko": "카드로 결제할 수 있나요?",
+        "en": "Can I pay by card?",
+        "ja": "カードで支払えますか？",
+        "zh": "可以刷卡吗？"
+      }
+    },
+    {
+      "id": "luggage",
+      "translations": {
+        "ko": "트렁크에 짐이 있습니다.",
+        "en": "I have luggage in the trunk.",
+        "ja": "トランクに荷物があります。",
+        "zh": "后备箱里有我的行李。"
+      }
+    },
+    {
+      "id": "hospital",
+      "translations": {
+        "ko": "병원으로 가주세요.",
+        "en": "Please take me to a hospital.",
+        "ja": "病院へ行ってください。",
+        "zh": "请带我去医院。"
+      }
+    },
+    {
+      "id": "police",
+      "translations": {
+        "ko": "경찰의 도움이 필요합니다.",
+        "en": "I need help from the police.",
+        "ja": "警察の助けが必要です。",
+        "zh": "我需要警察的帮助。"
+      }
+    },
+    {
+      "id": "change_destination",
+      "translations": {
+        "ko": "목적지를 변경하고 싶습니다.",
+        "en": "I would like to change the destination.",
+        "ja": "目的地を変更したいです。",
+        "zh": "我想更改目的地。"
+      }
+    },
+    {
+      "id": "aircon",
+      "translations": {
+        "ko": "에어컨을 조절해 주세요.",
+        "en": "Please adjust the air conditioner.",
+        "ja": "エアコンを調整してください。",
+        "zh": "请调节一下空调。"
+      }
+    }
+  ],
+  "driver_context": {
+    "START": [
+      {
+        "id": "d_destination",
+        "translations": {
+          "ko": "목적지를 확인했습니다.",
+          "en": "I have confirmed your destination.",
+          "ja": "目的地を確認しました。",
+          "zh": "已确认您的目的地。"
+        }
+      },
+      {
+        "id": "d_seatbelt",
+        "translations": {
+          "ko": "안전벨트를 착용해 주세요.",
+          "en": "Please fasten your seat belt.",
+          "ja": "シートベルトを締めてください。",
+          "zh": "请系好安全带。"
+        }
+      }
+    ],
+    "DRIVING": [
+      {
+        "id": "d_aircon",
+        "translations": {
+          "ko": "차량 온도는 괜찮으신가요?",
+          "en": "Is the temperature in the car okay?",
+          "ja": "車内の温度は大丈夫ですか？",
+          "zh": "车内温度合适吗？"
+        }
+      },
+      {
+        "id": "d_route",
+        "translations": {
+          "ko": "현재 경로로 이동 중입니다.",
+          "en": "We are continuing on the current route.",
+          "ja": "現在のルートで移動しています。",
+          "zh": "正在按当前路线行驶。"
+        }
+      }
+    ],
+    "ARRIVING": [
+      {
+        "id": "d_arriving",
+        "translations": {
+          "ko": "곧 목적지에 도착합니다.",
+          "en": "We will arrive at the destination soon.",
+          "ja": "まもなく目的地に到着します。",
+          "zh": "即将到达目的地。"
+        }
+      },
+      {
+        "id": "d_payment",
+        "translations": {
+          "ko": "결제 수단을 준비해 주세요.",
+          "en": "Please prepare your payment method.",
+          "ja": "お支払いの準備をお願いします。",
+          "zh": "请准备好付款方式。"
+        }
+      }
+    ],
+    "STOPPED": [
+      {
+        "id": "d_belongings",
+        "translations": {
+          "ko": "소지품을 확인해 주세요.",
+          "en": "Please check your belongings.",
+          "ja": "お忘れ物がないかご確認ください。",
+          "zh": "请检查您的随身物品。"
+        }
+      },
+      {
+        "id": "d_receipt",
+        "translations": {
+          "ko": "영수증이 필요하신가요?",
+          "en": "Would you like a receipt?",
+          "ja": "領収書は必要ですか？",
+          "zh": "需要收据吗？"
+        }
+      }
+    ]
+  }
+}

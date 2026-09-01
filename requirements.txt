@@ -1,0 +1,9 @@
+Flask==2.2.5
+Werkzeug<3
+requests==2.31.0
+gpiozero==1.6.2; python_version < "3.9"
+gpiozero==2.0.1.post3; python_version >= "3.9"
+rpi-lgpio==0.6; sys_platform == "linux"
+SpeechRecognition==3.8.1; python_version < "3.8"
+SpeechRecognition==3.10.4; python_version >= "3.8" and python_version < "3.9"
+SpeechRecognition==3.17.0; python_version >= "3.9"

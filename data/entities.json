@@ -1,0 +1,89 @@
+[
+  {
+    "canonical": "성심당",
+    "preferred": {
+      "ko": "성심당",
+      "en": "Seongsimdang (성심당)",
+      "ja": "ソンシムダン（聖心堂）",
+      "zh": "圣心堂（Seongsimdang）"
+    },
+    "aliases": {
+      "all": [
+        "Sungsimdang",
+        "Seong Sim Dang"
+      ],
+      "ja": [
+        "ソンシムタン"
+      ],
+      "zh": [
+        "圣心档"
+      ]
+    }
+  },
+  {
+    "canonical": "자갈치시장",
+    "preferred": {
+      "ko": "자갈치시장",
+      "en": "Jagalchi Market (자갈치시장)",
+      "ja": "チャガルチ市場",
+      "zh": "札嘎其市场"
+    },
+    "aliases": {
+      "all": [
+        "Jagachi Market",
+        "Jagalchi"
+      ],
+      "en": [
+        "Jagalchi fish market"
+      ]
+    }
+  },
+  {
+    "canonical": "전주한옥마을",
+    "preferred": {
+      "ko": "전주한옥마을",
+      "en": "Jeonju Hanok Village (전주한옥마을)",
+      "ja": "全州韓屋村",
+      "zh": "全州韩屋村"
+    },
+    "aliases": {
+      "all": [
+        "Jeonju Hanok",
+        "Hanok Village Jeonju"
+      ]
+    }
+  },
+  {
+    "canonical": "동피랑 벽화마을",
+    "preferred": {
+      "ko": "동피랑 벽화마을",
+      "en": "Dongpirang Mural Village (동피랑 벽화마을)",
+      "ja": "トンピラン壁画村",
+      "zh": "东崖壁画村"
+    },
+    "aliases": {
+      "all": [
+        "Dongpirang",
+        "Dongpirang Village"
+      ]
+    }
+  },
+  {
+    "canonical": "경복궁",
+    "preferred": {
+      "ko": "경복궁",
+      "en": "Gyeongbokgung Palace (경복궁)",
+      "ja": "景福宮",
+      "zh": "景福宫"
+    },
+    "aliases": {
+      "all": [
+        "Kyungbok Palace",
+        "Gyeongbok Palace"
+      ],
+      "en": [
+        "Gyeongbokgung"
+      ]
+    }
+  }
+]

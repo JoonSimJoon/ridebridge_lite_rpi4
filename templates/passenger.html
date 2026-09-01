@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RideBridge Passenger</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">RIDE BRIDGE LITE</div>
+        <h1>Passenger</h1>
+      </div>
+      <span id="netBadge" class="badge ok">ONLINE</span>
+    </header>
+
+    <section class="card">
+      <h2 id="languageHeading">Choose language</h2>
+      <div id="langButtons" class="segmented wrap">
+        <button data-lang="ko">한국어</button>
+        <button data-lang="en" class="active">English</button>
+        <button data-lang="ja">日本語</button>
+        <button data-lang="zh">中文</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="talkHeading">Talk to driver</h2>
+      <textarea id="messageInput" rows="3" maxlength="500" placeholder="Type a message..."></textarea>
+      <div class="actions">
+        <button id="sttBtn" class="secondary">🎤 STT</button>
+        <button id="sendBtn" class="primary">Send → Driver</button>
+      </div>
+      <p id="sttHint" class="hint" data-state="default" aria-live="polite">Speech input requires microphone permission.</p>
+    </section>
+
+    <section class="card">
+      <div class="section-title-row">
+        <h2 id="quickHeading">Quick phrases</h2>
+        <span class="mini-badge">OFFLINE SAFE</span>
+      </div>
+      <div id="quickPhrases" class="grid-buttons"></div>
+    </section>
+
+    <section class="card">
+      <h2 id="messagesHeading">Driver messages</h2>
+      <div id="conversation" class="conversation" aria-live="polite"></div>
+    </section>
+
+    <section class="card">
+      <h2 id="guideHeading">Smart Guide Cards</h2>
+      <select id="guideSelect"></select>
+      <div id="guideCard" class="guide-card"></div>
+    </section>
+
+    <section class="card">
+      <h2 id="fareHeading">Fare converter</h2>
+      <div class="currency-row">
+        <input id="krwAmount" type="number" min="0" value="15000">
+        <select id="currencySelect">
+          <option value="USD">USD</option>
+          <option value="JPY">JPY</option>
+          <option value="CNY">CNY</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <button id="convertBtn" class="secondary">Convert</button>
+      </div>
+      <div id="currencyResult" class="result-box">15,000 KRW</div>
+    </section>
+
+    <section class="card danger-card">
+      <h2 id="helpHeading">Need human help?</h2>
+      <p id="helpBody">Call the 1330 Korea Travel Helpline when automated translation is not enough.</p>
+      <a id="sosCall" class="sos-button" href="tel:{{ sos_number }}">SOS · Call {{ sos_number }}</a>
+    </section>
+  </main>
+
+  <script src="/static/passenger.js"></script>
+</body>
+</html>
